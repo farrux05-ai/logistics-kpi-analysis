@@ -141,12 +141,12 @@ Use minimum volume thresholds (e.g. HAVING COUNT(*) >= 20) to reduce noise
 ## Visual Summary
 
 ### Warehouse priority (where to focus)
-![Warehouse Priority](outputs/screenshots/warehouse_score.png)
+![Warehouse Priority](outputs/screenshot/warehouse_score.png)
 
 ### Carrier tradeoff (cost vs speed)
-![Carrier Tradeoff](outputs/screenshots/carrier_score.png)
+![Carrier Tradeoff](outputs/screenshot/carrier_score.png)
 
 ### Worst routes (badness score)
-![Worst Routes](outputs/screenshots/destination_score.png)
+![Worst Routes](outputs/screenshot/destination_score.png)
 
 
