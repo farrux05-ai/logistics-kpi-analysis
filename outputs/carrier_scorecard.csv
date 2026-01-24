@@ -1,0 +1,8 @@
+carrier,shipments,cost_per_unit,avg_transit_days,delay_rate,returned_rate,delivered_rate,carrier_position
+LaserShip,303,203.06,4.04,8.58,1.98,81.85,FAST and CHEAP (best)
+OnTrac,299,182.13,4.12,9.70,2.34,82.94,FAST and CHEAP (best)
+FedEx,295,217.23,4.30,8.81,2.37,82.71,SLOW and EXPENSIVE (worst)
+USPS,292,175.78,4.05,7.19,1.37,81.85,FAST and CHEAP (best)
+DHL,281,217.39,4.27,13.88,0.71,82.21,SLOW and EXPENSIVE (worst)
+Amazon Logistics,274,188.96,4.32,12.41,1.09,79.20,SLOW but CHEAP
+UPS,256,225.23,4.20,9.38,1.17,86.33,SLOW and EXPENSIVE (worst)

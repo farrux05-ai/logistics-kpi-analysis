@@ -1,0 +1,6 @@
+origin_warehouse,destination,shipments,cost_per_unit,avg_transit_days,delay_rate,returned_rate,badness_score
+Warehouse_LA,New York,22,200.75,4.05,9.09,4.55,7.16
+Warehouse_MIA,Detroit,23,193.34,4.22,13.04,0.00,2.62
+Warehouse_LA,Chicago,21,193.63,4.00,9.52,0.00,2.18
+Warehouse_LA,Dallas,24,228.49,4.33,4.17,0.00,1.69
+Warehouse_CHI,Denver,25,164.53,3.48,4.00,0.00,1.34
