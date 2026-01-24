@@ -130,10 +130,23 @@ Example (psql):
 \copy (SELECT * FROM your_warehouse_scorecard_query) TO 'outputs/warehouse_scorecard.csv' CSV HEADER;
 \copy (SELECT * FROM your_hou_carrier_scorecard_query) TO 'outputs/hou_carrier_scorecard.csv' CSV HEADER;
 \copy (SELECT * FROM your_worst_routes_query) TO 'outputs/worst_routes.csv' CSV HEADER;
+```
 
 ### Notes / Assumptions
 
 If SLA/promise date is not available, delivered_rate is used as a proxy metric.
 
 Use minimum volume thresholds (e.g. HAVING COUNT(*) >= 20) to reduce noise
+
+## Visual Summary
+
+### Warehouse priority (where to focus)
+![Warehouse Priority](outputs/screenshots/warehouse_score.png)
+
+### Carrier tradeoff (cost vs speed)
+![Carrier Tradeoff](outputs/screenshots/carrier_score.png)
+
+### Worst routes (badness score)
+![Worst Routes](outputs/screenshots/destination_score.png)
+
 
